@@ -1,0 +1,30 @@
+state=
+{
+	id=743
+	name="STATE_743"
+	manpower = 493010
+	state_category = large_town
+	
+	
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_extra_state_shared_building_slots = -2
+		victory_points = {
+			10000 5 
+		}
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+			dockyard = 1
+			10000 = {
+				naval_base = 5
+			}
+		}
+	}
+	provinces={
+		10000
+	}
+
+	local_supplies=0.0 
+}

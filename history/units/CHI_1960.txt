@@ -1,0 +1,192 @@
+﻿division_template = {
+	name = "Biāozhǔn bùbīng shī"			# Represents the Standard Infantry Corps units: Run-of-the-mill, western-based Division
+	division_names_group = CHI_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "Zhōngguó mínbīng lǚ"			# Represents three-division infantry corps (generally poorly-equipped militias)
+	division_names_group = CHI_INF_01
+	priority = 0 # garrison
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+### OOB ###
+### UNFINISHED!!! ###
+units = {
+	# Standard Infantry Corps
+	division = {
+		name = "1 biāozhǔn bùbīng shī"
+		location = 10076 # Suzhou
+		division_template = "Biāozhǔn bùbīng shī"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "2 Biāozhǔn bùbīng shī"
+		location = 11913 # Nanjing
+		division_template = "Biāozhǔn bùbīng shī"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3 Biāozhǔn bùbīng shī"
+		location = 1047 # Guangzhou
+		division_template = "Biāozhǔn bùbīng shī"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "4 Biāozhǔn bùbīng shī"
+		location = 4619 # Wuhan
+		division_template = "Biāozhǔn bùbīng shī"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "5 Biāozhǔn bùbīng shī"
+		location = 11913 # Nanjing
+		division_template = "Biāozhǔn bùbīng shī"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "6 Biāozhǔn bùbīng shī"
+		location = 7097 # Changsha
+		division_template = "Biāozhǔn bùbīng shī"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "7 Biāozhǔn bùbīng shī"
+		location = 9843 # Beijing
+		division_template = "Biāozhǔn bùbīng shī"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "8 Biāozhǔn bùbīng shī"
+		location = 10068 # Beijing
+		division_template = "Biāozhǔn bùbīng shī"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "9 Biāozhǔn bùbīng shī"
+		location = 9843 # Beijing
+		division_template = "Biāozhǔn bùbīng shī"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "9 Biāozhǔn bùbīng shī"
+		location = 4196 # Fuzhou
+		division_template = "Biāozhǔn bùbīng shī"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "10 Biāozhǔn bùbīng shī"
+		location = 7014 # Shanghai
+		division_template = "Biāozhǔn bùbīng shī"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "11 Biāozhǔn bùbīng shī"
+		location = 7191 # Hangzhou
+		division_template = "Biāozhǔn bùbīng shī"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "12 Biāozhǔn bùbīng shī"
+		location = 1069 # Shanghai
+		division_template = "Biāozhǔn bùbīng shī"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "13 Biāozhǔn bùbīng shī"
+		location = 6999 # Chongqing
+		division_template = "Biāozhǔn bùbīng shī"
+		start_experience_factor = 0.2
+	}
+	# Chinese Militia Force / 
+	division = {
+		name = "1 Chongqing Mínbīng bùduì"
+		location = 6999 # Chongqing
+		division_template = "Zhōngguó mínbīng lǚ"
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "2 Chongqing Mínbīng bùduì"
+		location = 6999 # Chongqing
+		division_template = "Zhōngguó mínbīng lǚ"
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Shanghai Mínbīng bùduì"
+		location = 7014 # Shanghai
+		division_template = "Zhōngguó mínbīng lǚ"
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Qinhuangdao Mínbīng bùduì"
+		location = 3900
+		division_template = "Zhōngguó mínbīng lǚ"
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Zhangbei Mínbīng bùduì"
+		location = 11752
+		division_template = "Zhōngguó mínbīng lǚ"
+		start_equipment_factor = 0.4
+	}
+	division = {
+		name = "1 Nanjing Mínbīng bùduì"
+		location = 11913 # Nanjing
+		division_template = "Zhōngguó mínbīng lǚ"
+		start_equipment_factor = 0.7
+	}
+}
+
+
+### Air Forces ###
+air_wings = {
+# Roughly 300 fighters, 21 tac bombers, but only 200 aircraft total were serviceable in 1937 due to neglect
+	# Beijing
+	608 = { 
+		fighter_equipment_0 = { owner = "CHI" amount = 30 }				# 3rd PG - Fiat CR.32
+	}
+	#Shanghai
+	613 = {
+		fighter_equipment_0 = { owner = "CHI" amount = 100 } 		# 4th PF, 5th PG, 9th PS - Curtiss Hawk
+		tac_bomber_equipment_0 =  { owner = "CHI" amount = 50 }		# Combined BG -- Martin 139WC, Savoia S.72
+	}
+}
+
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "CHI"
+		}
+		requested_factories = 4
+		progress = 0.55
+		efficiency = 90
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+			creator = "CHI"
+		}
+		requested_factories = 3
+		progress = 0.55
+		efficiency = 90
+	}	
+}

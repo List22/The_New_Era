@@ -1,0 +1,78 @@
+bookmarks = {
+	bookmark = {
+		name = "A New Age"
+		desc = "A_NEW_AGE_DESC"
+		date = 1960.1.1.1
+		picture = "GFX_select_date_1939"
+		default_country = "GER"
+	
+		USA = {
+			history = USA_ANA_DESC
+			ideology = democratic
+			ideas = {
+				home_of_the_free
+				great_depression_3
+				air_war_plans_division_focus
+				USA_war_department
+				new_deal
+			}
+			focuses = {
+				USA_war_plan_black
+				USA_arsenal_of_democracy
+				USA_selective_training_act
+			}
+		}
+		GER = {
+			history = GER_ANA_DESC
+			ideology = fascism
+			ideas = {
+				sour_loser
+				general_staff
+				GER_mefo_bills_15
+				GER_autarky_idea
+			}
+			focuses = {
+				GER_weserubung
+				GER_plan_z
+				GER_ussr_war_goal
+			}
+		}
+		ITA = {
+			history = ITA_ANA_DESC
+			ideology = fascism
+			ideas={
+				vittoria_mutilata
+				victor_emmanuel
+			}
+			focuses = {
+				ITA_pact_of_steel
+				ITA_spanish_italian_faction
+				ITA_italy_first
+			}			
+		}
+
+		"---"={
+			history = "OTHER_ANA_DESC"
+		}
+
+		# minors from DLC ####
+		"CAN"={
+			minor = yes
+			history = "CAN_ANA_DESC"
+			ideology = democratic
+			ideas = {
+				CAN_great_depression_1
+				CAN_conscription_crisis
+			}
+			focuses = {
+				CAN_skewer_the_eagle
+				CAN_north_american_alliance
+				CAN_join_comintern
+			}
+		}
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

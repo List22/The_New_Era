@@ -1,0 +1,13 @@
+spriteTypes = {
+
+	# leaders we need to override in DLC go in this file
+
+	### CAN
+
+	spriteType = {
+		name = "GFX_portrait_can_louis_st_laurent"
+		texturefile = "gfx/leaders/CAN/Portrait_Canada_Louis_St_Laurent.dds"
+	}
+
+
+}
