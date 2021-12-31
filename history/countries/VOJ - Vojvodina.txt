@@ -1,0 +1,131 @@
+capital = 45
+
+# Starting tech
+set_technology = {
+	# Extended Technologies
+	etax_doctrine = 1
+	camo = 1
+	transport_plane1 = 1	
+	jngdst_clothes_gw = 1
+        desertinfantry_at = 1
+	infantry_weapons = 1
+        tech_support = 1
+        
+}
+
+set_convoys = 30
+set_research_slots = 3
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 11
+	fascism = 12
+	communism = 6
+	neutrality = 71
+}
+
+1939.1.1 = {
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 12
+		fascism = 16
+		communism = 7
+		neutrality = 65
+	}
+}
+create_country_leader = {
+	name = "Vojislav Sedović"
+	desc = ""
+	picture = "gfx/leaders/ALG/r56_portrait_ALG_Messali_Hadj.dds"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Miro Nedić"
+	desc = ""
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Bora Drljača"
+	desc = ""
+	picture = "gfx/leaders/VOJ/PV_VOJ_Bora_Drljaca.dds"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Željko Heimer"
+	desc = ""
+	picture = "gfx/leaders/YUG/Portrait_Yugoslavia_Milan_Grol.dds"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Adžu Crkva"
+	desc = ""
+	picture = "gfx/leaders/Europe/portrait_europe_generic_4.dds"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Miliko Neđadović"
+	portrait_path = "gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
+        id = 875
+	traits = { politically_connected harsh_leader }
+	skill = 2
+	attack_skill = 2
+        defense_skill = 1
+        planning_skill = 2
+        logistics_skill = 3
+    
+}
+create_corps_commander = {
+	name = "Momčilo Mitrovića"
+	portrait_path = "gfx/leaders/Europe/portrait_europe_generic_land_19.dds"
+        id = 876
+	traits = { politically_connected }
+	skill = 1
+	attack_skill = 1
+        defense_skill = 2
+        planning_skill = 1
+        logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Ženoj Čitović"
+	portrait_path = "gfx/leaders/ROM/Portrait_Romania_Constantin_Parhon.dds"
+        id = 877
+	traits = { politically_connected }
+	skill = 1
+	attack_skill = 2
+        defense_skill = 1
+        planning_skill = 1
+        logistics_skill = 1
+}
