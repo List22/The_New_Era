@@ -1,0 +1,3 @@
+DEVLOG -- LIST WHAT YOU DO HERE (FORMAT: "YYYY/MM/DD USERNAME: WHAT YOU DID")
+
+2021/12/31 b0ro-k: I'm starting work on the mod. I aim to have all of Europe's borders by 2022/02/01, but whatever.
