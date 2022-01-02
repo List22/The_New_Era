@@ -56,16 +56,6 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Miro Nedić"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
 	name = "Bora Drljača"
 	desc = ""
 	picture = "gfx/leaders/VOJ/PV_VOJ_Bora_Drljaca.dds"
@@ -76,9 +66,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Željko Heimer"
+	name = "Mirko 'Baja Mali Knindža' Pajčin"
 	desc = ""
-	picture = "gfx/leaders/YUG/Portrait_Yugoslavia_Milan_Grol.dds"
+	picture = "gfx/leaders/VOJ/TheNewEra_VOJ_Mirko_Pajcin.dds"
 	ideology = fascism_ideology
 	traits = {
 		#
