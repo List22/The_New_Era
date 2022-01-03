@@ -46,9 +46,9 @@ set_popularities = {
 	}
 }
 create_country_leader = {
-	name = "Vojislav Sedović"
+	name = "Miroslav 'Lepi Mića' Pržulj"
 	desc = ""
-	picture = "gfx/leaders/ALG/r56_portrait_ALG_Messali_Hadj.dds"
+	picture = "gfx/leaders/VOJ/TheNewEra_VOJ_Miroslav_Przulj.dds"
 	ideology = conservatism
 	traits = {
 		#
@@ -58,7 +58,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Bora Drljača"
 	desc = ""
-	picture = "gfx/leaders/VOJ/PV_VOJ_Bora_Drljaca.dds"
+	picture = "gfx/leaders/VOJ/TheNewEra_VOJ_Borislav_Drljaca.dds"
 	ideology = despotism
 	traits = {
 		#
