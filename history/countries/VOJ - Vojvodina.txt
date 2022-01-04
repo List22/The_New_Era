@@ -76,9 +76,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Adžu Crkva"
+	name = "Fikret Abdić"
 	desc = ""
-	picture = "gfx/leaders/Europe/portrait_europe_generic_4.dds"
+	picture = "gfx/leaders/VOJ/TheNewEra_VOJ_Fikret_Abdic.dds"
 	ideology = leninism
 	traits = {
 		#
