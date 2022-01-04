@@ -11,4 +11,4 @@ tags={
 }
 name="A New Age"
 supported_version="1.11.*"
-#path="C:/Users/mrtoa/OneDrive/Documents/Paradox Interactive/Hearts of Iron IV/mod/ana/The_New_Era"
+#path="C://Users//mrtoa//OneDrive//Documents//Paradox Interactive//Hearts of Iron IV//mod//ana//The_New_Era"
