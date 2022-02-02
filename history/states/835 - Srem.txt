@@ -4,8 +4,9 @@ state={
 	
 	history={
 		owner=VOJ
+		add_core_of = VOJ
 	}
-	add_core_of = VOJ
+
 	
 	provinces={
 		11580 11577
