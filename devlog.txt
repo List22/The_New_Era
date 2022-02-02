@@ -2,4 +2,5 @@ DEVLOG -- LIST WHAT YOU DO HERE (FORMAT: "YYYY/MM/DD USERNAME: WHATNOT")
 
 2021/12/31 b0ro-k: I'm starting work on the mod. I aim to have all of Europe's borders by 2022/02/01, but whatever.
 2022/01/01 b0ro-k: Happy new year, everyone. I feel like I'm adding stuff in too slow. Whatever, I aimed for Febuary, I think it's reasonable.
-2022/01/31 b0rk-k: To Arbis, I'm sorry. I'll work on the mod more often. I've been wanting to work on other projects, but I'm going to focus here for a while.
+2022/01/31 b0ro-k: To Arbis, I'm sorry. I'll work on the mod more often. I've been wanting to work on other projects, but I'm going to focus here for a while.
+2022/02/02 b0ro-k: I am officially departing from this project. There's a new project coming up, and I haven't been working on this new one. This shall be an archive.
